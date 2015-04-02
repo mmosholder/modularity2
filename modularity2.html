@@ -19,7 +19,7 @@
 	    		<p class="instruction-text">Center multiple arbitrary elements horizontally, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
+						<div class="centerItems">
 							<img src="http://placehold.it/160">
 							<img src="http://placehold.it/160">
 							<img src="http://placehold.it/160">
@@ -30,7 +30,7 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
+						<div class="listAlign">
 							<img src="http://placehold.it/120">
 							<img src="http://placehold.it/160">
 				    	<p>Oh hello</p>
@@ -51,7 +51,7 @@
 	    		<p class="instruction-text">Center arbitrary elements vertically, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
+						<div class="verticalAlign">
 							<div>
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
@@ -64,8 +64,8 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<div>
-							<div>
+			    	<div class="multipleItems">
+							<div class="innerContentAlign">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/20">
 					    	<p>Oh hello</p>
@@ -87,7 +87,7 @@
 	    		<p class="instruction-text">Make the list items horizontal instead of vertical.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="listStyle">
 							<li>Ready</li>
 							<li>Fire</li>
 							<li>Aim</li>
@@ -100,18 +100,18 @@
   				<h1 class="instruction-title">Buttons</h1>
 
 	    		<p class="instruction-text">Create a set of different-sized buttons.</p>
-					<div class="instruction-answer">
+					<div class="instruction-answer redButton">
 			    	<!-- Edit here -->
-			    	<a href="#">Buy Now</a>
-			    	<a href="#">Learn More</a>
-			    	<a href="#">OK</a>
+			    	<a class="largeButton" href="#">Buy Now</a>
+			    	<a class="mediumButton" href="#">Learn More</a>
+			    	<a class="smallButton" href="#">OK</a>
 				    <!-- End editable area -->
 			    </div>
 
 	    		<p class="instruction-text">Should work with both &lt;a&gt;, &lt;button&gt;, and &lt;submit&gt; elements.</p>
-					<div class="instruction-answer">
+					<div class="instruction-answer redButton mediumButton">
 			    	<!-- Edit here -->
-			    	<a href="#">Learn More</a>
+			    	<a class="mediumButton" href="#">Learn More</a>
 			    	<input type="button" href="#" value="Accept">
 			    	<input type="submit" href="#" value="Submit">
 				    <!-- End editable area -->
@@ -124,8 +124,8 @@
 	    		<p class="instruction-text">Create a navigation menu with links that are highlighted on hover.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<nav>
-			    		<ul>
+			    	<nav class="buttonNav">
+			    		<ul class="listStyle">
 			    			<li><a href="#">Home</a></li>
 			    			<li><a href="#">Products</a></li>
 			    			<li><a href="#">About</a></li>
@@ -143,12 +143,12 @@
 	    		<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ol>
+			    	<ol class="listStyle paginationList">
 			    		<li><a href="#">prev</a></li>
 			    		<li><a href="#">5</a></li>
 			    		<li><a href="#">6</a></li>
 			    		<li><a href="#">7</a></li>
-			    		<li><span>8</span></li>
+			    		<li class="currentItem"><span>8</span></li>
 			    		<li><a href="#">9</a></li>
 			    		<li><a href="#">10</a></li>
 			    		<li><a href="#">11</a></li>
@@ -158,59 +158,59 @@
 			    </div>
 			  </li>
 
-  			<li>
+  			<li class="commentStream">
   				<h1 class="instruction-title">Comment Stream</h1>
 
 	    		<p class="instruction-text">Style a stream of user comments.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-				    <div>
+				    <div class="commentItem">
 				    	<div>
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="textBlock">
 				    		<strong>@metaraine</strong>
 					    	<time>Thursday, June 27, 2013, 4:15pm</time>
 					    	<p>Wow, that was an amazing article.</p>
 					    </div>
 					  </div>
 
-				    <div>
+				    <div class="commentItem">
 				    	<div>
 					    	<img src="http://gravatar.com/avatar/1?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="textBlock">
 				    		<strong>@seandaken</strong>
 					    	<time>Friday, June 28, 2013, 11:02</time>
 					    	<p>I learned 100 new things.</p>
 					    </div>
 					  </div>
 
-				    <div>
+				    <div class="commentItem">
 				    	<div>
 					    	<img src="http://gravatar.com/avatar/0?d=identicon">
 					    </div>
-				    	<div>
+				    	<div class="textBlock">
 				    		<strong>@metaraine</strong>
 					    	<time>2 hours ago</time>
 					    	<p>How about we have the RefactorU student climb Bear Peak each morning before class?</p>
 
-						    <div>
+						    <div class="commentItem">
 						    	<div>
 							    	<img src="http://gravatar.com/avatar/1?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="textBlock">
 						    		<strong>@seandaken</strong>
 							    	<time>45 minutes ago</time>
 							    	<p>Sure</p>
 							    </div>
 							  </div>
 
-						    <div>
+						    <div class="commentItem">
 						    	<div>
 							    	<img src="http://gravatar.com/avatar/2?d=identicon&s=60">
 							    </div>
-						    	<div>
+						    	<div class="textBlock">
 						    		<strong>@nullempire</strong>
 							    	<time>just now</time>
 							    	<p>No!</p>
@@ -228,11 +228,11 @@
 	    		<p class="instruction-text">Create styles for a tabbed content control. There should be an active tab that is styled to appear in the foreground.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="listStyle tabControl">
 			    		<li><a href="#">
 			    			<div>First</div>
 			    		</a></li>
-			    		<li><a href="#">
+			    		<li class="activeTab"><a href="#">
 			    			<div>Second</div>
 			    		</a></li>
 			    		<li><a href="#">
@@ -242,7 +242,7 @@
 			    			<div>Fourth</div>
 			    		</a></li>
 			    	</ul>
-	    			<div>
+	    			<div class="tabBox">
 				    	<p>Lemon drops dessert bonbon sesame snaps. Cheesecake candy canes ice cream dessert toffee applicake caramels pudding pie. Marshmallow wypas halvah ice cream.</p>
 							<p>Tart croissant lollipop toffee bear claw gingerbread candy canes tart. Cookie candy canes carrot cake muffin danish jelly beans cookie. Donut liquorice jelly dragée biscuit cookie wafer. Soufflé caramels gingerbread cheesecake sesame snaps.</p>
 							<p>Chocolate cake wypas pie tiramisu lollipop chocolate bar lollipop. Chupa chups sugar plum oat cake candy canes lemon drops. Brownie fruitcake oat cake gummi bears faworki. Muffin cheesecake pastry.</p>
